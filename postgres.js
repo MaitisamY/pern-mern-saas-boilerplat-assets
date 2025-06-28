@@ -70,7 +70,6 @@ export default connectDB;
 export { sequelize };
 
 /**
- * @file config/db.js
  * This file connects to the PostgreSQL database using Sequelize.
  * It also initializes the database by creating tables if they do not exist.
  * The connectDB function is exported and imported into main.js.
