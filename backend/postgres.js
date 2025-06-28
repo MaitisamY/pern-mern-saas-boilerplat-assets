@@ -35,7 +35,7 @@ const initializeDatabase = async () => {
         'footer',
         'reviews',
         'packages',
-        'contactForm',
+        'contact_form',
         'interactions',
         'chat_messages',
         'notifications',
