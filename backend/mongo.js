@@ -70,7 +70,7 @@ const initializeDatabase = async () => {
         'packages',
         'contactForm',
         'interactions',
-        'chat_messages',
+        'chatMessages',
         'notifications',
     ]
 
