@@ -50,7 +50,7 @@ npm install
 Use the included script to create your `.env` file:
 
 ```bash
-./setup.sh    # or setup.bat for Windows
+./setup.sh for Mac/Linux   # or   setup.bat for Windows
 ```
 
 Or manually copy and configure:
@@ -80,21 +80,17 @@ Use the seeded admin credentials:
 ## 🛠 Folder Structure
 
 ```
-backend/       → Express API (routes, models, services)
-frontend/      → React client
-prisma/        → DB schema and migrations
+backend/           → Express API (routes, models, services)
+frontend/          → React client
+sequelize/         → DB schema and migrations
 docker-compose.yml → One command setup
-.env.example   → Reference for environment variables
+.env.example       → Reference for environment variables
 ```
 
 ## 📦 Built-in Tech
 
-- Express + Prisma or Sequelize
-- React + Context or Redux (extendable)
+- Express + Sequelize + Socket.io / Express + Mongoose + Socket.io
+- React + Context OR Zustand (extendable) or Redux (extendable)
 - Stripe Billing (w/ webhook handling)
 - Nodemailer or other SMTP setup
 - Role-based access control
-
-## 📄 License
-
-MIT — feel free to use, fork, and extend. Commercial use allowed with attribution.
