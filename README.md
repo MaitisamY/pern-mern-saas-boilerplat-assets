@@ -1,7 +1,7 @@
 
 # PERN SaaS Boilerplate
 
-A minimal, production-ready SaaS starter kit built with PostgreSQL, Express, React, and Node.js (PERN stack).
+A minimal, production-ready SaaS starter kit built with PostgreSQL/MongoDB, Express, React, and Node.js (PERN/MERN stack).
 
 ## 🔧 Requirements
 
