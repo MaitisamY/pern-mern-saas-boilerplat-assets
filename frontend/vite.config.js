@@ -25,11 +25,11 @@ export default defineConfig({
             '@pages': path.resolve(__dirname, './src/pages'),
             '@private': path.resolve(__dirname, './src/private'),
             '@routes': path.resolve(__dirname, './src/routes'),
-            '@service': path.resolve(__dirname, './src/service'),
-            '@store': path.resolve(__dirname, './src/store'),
-            '@styles': path.resolve(__dirname, './src/style'),
-            '@util': path.resolve(__dirname, './src/util'),
-            '@validator': path.resolve(__dirname, './src/validator')
+            '@services': path.resolve(__dirname, './src/services'),
+            '@stores': path.resolve(__dirname, './src/stores'),
+            '@styles': path.resolve(__dirname, './src/styles'),
+            '@utils': path.resolve(__dirname, './src/utils'),
+            '@validators': path.resolve(__dirname, './src/validators')
         },
         extensions: [
             '.js', '.jsx', '.ts', '.tsx', '.json', '.mjs', '.css', '.scss', '.sass', '.less',
