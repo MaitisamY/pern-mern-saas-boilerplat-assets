@@ -1,6 +1,7 @@
 
 import path from 'path';
 import { defineConfig } from 'vite';
+import { ENV } from '@config/env.js';
 import react from '@vitejs/plugin-react';
 import tailwindcss from '@tailwindcss/vite';
 
@@ -39,5 +40,10 @@ export default defineConfig({
     },
     build: {
         outDir: 'build'
+    },
+    server: {
+        // host: '0.0.0.0',
+        port: ENV.FRONTEND_PORT,
+        open: true
     }
 });
