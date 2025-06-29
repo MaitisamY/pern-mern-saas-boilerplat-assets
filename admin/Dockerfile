@@ -7,7 +7,7 @@ COPY package*.json ./
 RUN npm install --force
 
 COPY . .
-# COPY ./frontend .
+# COPY ./admin .
 
-EXPOSE 5174
+EXPOSE 5173
 CMD ["npm", "run", "dev"]
