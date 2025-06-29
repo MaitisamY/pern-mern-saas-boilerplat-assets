@@ -9,5 +9,5 @@ RUN npm install --force
 COPY . .
 # COPY ./admin .
 
-EXPOSE 5174
+EXPOSE 5173
 CMD ["npm", "run", "dev"]
